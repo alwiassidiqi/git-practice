@@ -1,2 +1,2 @@
-# practice25
+# git-practice
 Tempat latihan coding
