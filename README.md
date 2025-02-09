@@ -1,2 +1,2 @@
 # practice25
-Latihan Git
+Tempat latihan coding
