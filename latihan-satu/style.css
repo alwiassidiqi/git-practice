@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', serif;
+}
+
+h1, h2, .work-name {
+    font-family: 'Caveat', serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.visit {
+    color: rgb(60, 60, 219);
+    font-size: smaller;
+}
+
+.work-name {
+    font-size: 1.4rem;
+}
+
+#navbar {
+    margin: 1rem;
+}
+
+.navbar-links {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.content-navbar {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border: 2.5px black solid;
+    width: 30px;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+#wrapper {
+    width: 60%;
+
+    border: 1px black solid;
+    margin: 10px auto 10px auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header {
+    text-align: center;
+    padding: 5rem;
+    border-bottom: 1px black solid;;
+}
+
+#body-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-list {
+    border-bottom: 1px black solid;
+    padding: 1rem;
+}
+
+.prolist {
+    padding: 1rem;
+}
+
+.work-part {
+    padding: 1rem;
+}
+
+#bordering {
+    border-top: 1px black solid;
+}
+
+#work {
+    border-left: 1px black solid;
+}
+
+#education {
+    border-left: 1px black solid;
+    padding: 1rem;
+}
+
+#review-container {
+    display: flex;
+    gap: 10px;
+}
+
+#review {
+    padding: 1rem;
+    border-top: 1px black solid;
+}
+
+.review-list {
+    border: 1px black solid;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.teacher {
+    color: grey;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 1rem;
+}

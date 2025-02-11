@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Basic HTML Website Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"></head>
 <body>
-    <h1>Hello World</h1>
+    <div id="wrapper">
+        <div id="navbar">
+            <div class="content-navbar">
+                <img src="pic/person.png">
+                <span>My Website</span>
+            </div>
+            <div class="content-navbar">
+                <span>
+                    <a href="#" class="navbar-links">Home</a> / 
+                    <a href="#" class="navbar-links">Projects</a> / 
+                    <a href="#" class="navbar-links">Articles</a> / 
+                    <a href="#" class="navbar-links">Contact</a>
+                </span>
+            </div>
+        </div>
+
+        <div id="header">
+            <h1>Frontend Developer</h1>
+            <p class="teacher">html only with proper layout, no styling</p>
+        </div>
+
+        <div id="body-content">
+            <div id="projects" class="body-child">
+                <div class="project-list">
+                    <h2>Projects</h2>
+                    <a href="#" class="project-link">HTML Only Portofolio</a>
+                </div>
+                <div class="project-list">
+                    <a href="#" class="project-link">Calculator</a>
+                </div>
+                <div class="project-list">
+                    <a href="#" class="project-link">Quiz App</a>
+                </div>
+                <div class="project-list">
+                    <a href="#" class="project-link">Countdown Timer</a>
+                </div>
+                <div class="prolist">
+                    <a href="#" class="project-link">Product Upcoming Page</a>
+                </div>
+            </div>
+            <div id="work" class="body-child">
+                <div class="work-part">
+                    <h2>Work Experience</h2>
+                    <span class="work-name">roadmap.sh</span>
+                    <p>Solved all the frontend projects</p>
+                    <a href="#" class="visit">Visit my profile</a>
+                </div>
+                <div class="work-part" id="bordering">
+                    <span class="work-name">OpenSource Work</span>
+                    <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+                    <a href="#" class="visit">Visit my Githhub Profile</a>
+                </div>
+            </div>
+            <div id="education" class="body-child">
+                <h2>Education</h2>
+                <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                <p>Course I took :
+                   <ul>
+                    <li>Object Oriendted Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Databases Management Systems</li>
+                    <li>Distibuted Database System</li>
+                    <li>Discreet Mathematics</li>
+                   </ul>
+                </p>
+            </div>
+        </div>
+
+        <div id="review">
+            <h2>Reviews from my Teachers</h2>
+            <div id="review-container">
+                <div class="review-list">
+                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                    <span class="teacher">Jane Doe<br>Assistant Professor</span>
+                </div>
+                <div class="review-list">
+                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                    <span class="teacher">Jane Doe<br>Assistant Professor</span>
+                </div>
+                <div class="review-list">
+                    <p>John doe was a brilliant student; always stood out with his assignments.</p>
+                    <span class="teacher">Jane Doe<br>Assistant Professor</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <h2>@ all rights reserved 2025</h2>
+        </div>
+    </div>
 </body>
 </html>
